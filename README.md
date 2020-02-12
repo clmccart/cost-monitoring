@@ -15,24 +15,25 @@ Next, we will need to create an "action group". This action group defines the sc
 
 In the portal, under Monitor > Alerts > Manage Actions > Add Action Group, create a new action group like so:
 ![actiongroup](https://github.com/clmccart/cost-monitoring/blob/master/image_refs/actiongroup.PNG)
+
 Note: the email given here should be the email where you want the notifications for ALL budgets under this action group to go. This could be a budget admin, project lead, etc. 
 
 ## Creating Budgets
 Once you have your resource groups and your action groups created, you can go into any of your resource groups under "Budgets" and add a budget.
 Create a budget like so:
-![image](image_refs/createbudget.png)
+![createbudget](https://github.com/clmccart/cost-monitoring/blob/master/image_refs/createbudget.PNG)
 
 You will specify how often you want the bdget to reset, start and end dates for the budget, and what your budget amount is. Here, I have selected a budget of $10. 
 
 Once you have done that, you will procedd to the next tab and set the alerts. 
 Below is an example where I have alerts at 75% of my budget and 100% of my budget. I have specified the action group we created earlier and have added the developer whose resource group this is to the list of recipients.
-![image](image_refs/createalerts.png)
+![createalerts](https://github.com/clmccart/cost-monitoring/blob/master/image_refs/createalerts.PNG)
 
 Repeat this process for all of your developers.
 
 ## Leveraging Budgets
 Once you are done, you can look at all of your budgets by navigating to your subscription in the portal, then going to the "Budgets" tab. Here you will see all of the budgets for your subscription and each of their current progress.
-![image](image_refs/allbudgets.png)
+![allbudgets](https://github.com/clmccart/cost-monitoring/blob/master/image_refs/allbudgets.PNG)
 
 If a user hits 75% or 100% of their budget, they (as well as the person specified in the action gorup) will receive an email notifying them of this.
 
