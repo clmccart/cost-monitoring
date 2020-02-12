@@ -14,7 +14,7 @@ First, we will need to create resource groups for each developer. All of the dev
 Next, we will need to create an "action group". This action group defines the scope
 
 In the portal, under Monitor > Alerts > Manage Actions > Add Action Group, create a new action group like so:
-<img src="image_refs/actiongroup.png" width="800" />
+![actiongroup](https://github.com/clmccart/cost-monitoring/blob/master/image_refs/actiongroup.PNG)
 Note: the email given here should be the email where you want the notifications for ALL budgets under this action group to go. This could be a budget admin, project lead, etc. 
 
 ## Creating Budgets
